@@ -1,0 +1,2 @@
+const Home = () => <h1 className="text-center mt-5">Welcome to Home Page</h1>;
+export default Home;
