@@ -4,12 +4,7 @@ import { toast } from "react-toastify";
 import { useAuth } from "../context/AuthContext";
 
 const Register = () => {
-  const [formData, setFormData] = useState({
-    fullName: "",
-    email: "",
-    password: "",
-    confirmPassword: "",
-  });
+  const [formData, setFormData] = useState({fullName: "",email: "",password: "",confirmPassword: "",});
   const navigate = useNavigate();
   const { register } = useAuth(); // <-- use register from AuthContext
 
